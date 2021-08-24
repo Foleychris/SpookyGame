@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spookygame"
+version = "0.1.0"
+description = "Kortney's spookygame"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-mock = "^3.6.1"
+ipython = "^7.26.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
